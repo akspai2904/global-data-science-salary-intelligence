@@ -65,6 +65,22 @@ The average annual salary ($112,298) exceeds the median ($101,570), suggesting a
 - **Data Analysis:** Salary benchmarking, segmentation, and trend analysis
 - **Data Visualization:** Heatmaps, bar charts, stacked charts, and geographic maps
 
+  ## SQL Analysis
+
+The project includes five PostgreSQL queries designed to reproduce the dashboard's core analytical metrics. Query results require validation against the source dataset.
+
+| Analysis | SQL File |
+|---|---|
+| KPI Analysis | [01_kpi_analysis.sql](sql/01_kpi_analysis.sql) |
+| Salary by Experience and Company Size | [02_salary_by_experience_company_size.sql](sql/02_salary_by_experience_company_size.sql) |
+| Remote Work Salary Analysis | [03_remote_work_salary_analysis.sql](sql/03_remote_work_salary_analysis.sql) |
+| Yearly Experience Trends | [04_yearly_experience_trends.sql](sql/04_yearly_experience_trends.sql) |
+| Geographic Salary Analysis | [05_geographic_salary_analysis.sql](sql/05_geographic_salary_analysis.sql) |
+
+## Data Documentation
+
+For dataset definitions, KPI calculations, category mappings, analytical assumptions, and limitations, see the [Data Dictionary and Methodology](docs/data_dictionary.md).
+
 ## Interactive Dashboard
 
 [View Dashboard on Tableau Public](https://public.tableau.com/views/AnalyzingGlobalSalariesforDataScienceJobs/GlobalDataScienceSalaryIntelligence)
