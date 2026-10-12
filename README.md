@@ -2,6 +2,10 @@
 
 ### Interactive Salary Analytics Dashboard | Tableau | 2020–2022
 
+## Dashboard Preview
+
+![Global Data Science Salary Intelligence Dashboard](images/dashboard-overview.png)
+
 ## Project Overview
 
 This project analyzes 607 global data science salary records to identify compensation trends across experience levels, company sizes, geographic locations, and remote-work arrangements.
